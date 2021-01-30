@@ -24,17 +24,6 @@ class myaccount extends StatelessWidget {
         ),
         home: SafeArea(
           child: Scaffold(
-            /*appBar: AppBar(
-              backgroundColor: Colors.green[900],
-              //backgroundColor: Colors.Theme.of(context).accentColor,
-              centerTitle: true,
-              title: Text(
-                'My Account',
-                style: TextStyle(
-                  fontSize: 35,
-                ),
-              ),
-            ),*/
             body: Container(
               margin: EdgeInsets.fromLTRB(20, 0, 20, 20),
               child: SingleChildScrollView(
